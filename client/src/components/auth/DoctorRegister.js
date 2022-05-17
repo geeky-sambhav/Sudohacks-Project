@@ -41,20 +41,11 @@ const DoctorRegister = ({ setAlert, register, isDoctorAuthenticated }) => {
         <style
           dangerouslySetInnerHTML={{
             __html:
-              'body{\n      margin: 0;\n      padding: 0;\n      background: url(bg.jpg) no-repeat center;\n      background-size: cover;\n      height: 100vh;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      text-align: center;\n      font-family: "Open Sans",sans-serif;\n      color: #fff;\n      cursor: pointer;\n    }\n    \n    .content p{\n      width: 700px;\n      line-height: 26px;\n      font-size: 18px;\n      text-align: justify;\n    }\n    \n    .cursor{\n      position: fixed;\n      width: 25px;\n      height: 25px;\n      border: 1px solid #c6c6c6;\n      border-radius: 50%;\n      left: 0;\n      top: 0;\n      pointer-events: none;\n      transform: translate(-50%, -50%);\n      transition: .1s;\n    }\n    \n    .cursor2{\n      position: fixed;\n      width: 4px;\n      height: 4px;\n      background-color: #c6c6c6;\n      border-radius: 50%;\n      left: 0;\n      top: 0;\n      pointer-events: none;\n      transform: translate(-50%, -50%);\n      transition: .15s;\n    }\n    \n    .content:hover ~ .cursor{\n      transform: translate(-50%, -50%) scale(1.5);\n      background-color: #c6c6c6;\n      opacity: .5;\n    }\n    \n    .content:hover ~ .cursor2{\n      opacity: 0;\n    }',
+              'body{\n      margin: 0;\n      padding: 0;\n      bgcolor:#e0e0e0 no-repeat center;\n      background-size: cover;\n      height: 100vh;\n      \n      align-items: center;\n      justify-content: center;\n      text-align: center;\n      font-family: "Open Sans",sans-serif;\n      color: #fff;\n      cursor: pointer;\n    }\n    \n    .content p{\n      width: 700px;\n      line-height: 26px;\n      font-size: 18px;\n      text-align: justify;\n    }\n    \n    .cursor{\n      position: fixed;\n      width: 25px;\n      height: 25px;\n      border: 1px solid #c6c6c6;\n      border-radius: 50%;\n      left: 0;\n      top: 0;\n      pointer-events: none;\n      transform: translate(-50%, -50%);\n      transition: .1s;\n    }\n    \n    .cursor2{\n      position: fixed;\n      width: 4px;\n      height: 4px;\n      background-color: #c6c6c6;\n      border-radius: 50%;\n      left: 0;\n      top: 0;\n      pointer-events: none;\n      transform: translate(-50%, -50%);\n      transition: .15s;\n    }\n    \n    .content:hover ~ .cursor{\n      transform: translate(-50%, -50%) scale(1.5);\n      background-color: #c6c6c6;\n      opacity: .5;\n    }\n    \n    .content:hover ~ .cursor2{\n      opacity: 0;\n    }',
           }}
         />
         <div className="content">
           <h1>Cursor Follow on MouseMove</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            aperiam fugiat a asperiores nulla eveniet nihil excepturi laudantium
-            exercitationem, earum ullam quo minus atque eos praesentium eum ad
-            perferendis quis possimus dignissimos itaque porro. Consectetur
-            dolorum quas ut magni laborum! Reiciendis quae, maxime, officia
-            saepe placeat vero voluptas fugit ea quas sed nihil, similique
-            repellat consequatur. Odit minima provident similique.
-          </p>
         </div>
         <div className="cursor" />
         <div className="cursor2" />

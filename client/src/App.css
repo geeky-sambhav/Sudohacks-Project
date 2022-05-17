@@ -200,6 +200,7 @@ h5 {
 }
 .navbar-dark .navbar-nav .active>.nav-link {
     font-size: 1.1rem;
+    width: 100%;
 }
 .navbar-dark .navbar-nav .active>.nav-link:hover {
     color: #17a2b8;
@@ -989,8 +990,7 @@ box-shadow:  -12px -12px 24px #828084,
   }
   .profile-btn{
     background-color: #6C63FF;
-    position: relative;
-    top:1rem;
+    
     left:1rem;
     width: 15rem;
     border-radius: 57px;
