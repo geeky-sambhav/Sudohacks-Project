@@ -30,7 +30,7 @@ h5 {
     position:relative;
     right:6rem;
     font-family: 'Fugaz One', cursive;
-    color: #3F3D56;;
+    color: #3F3D56;
 }
 .main-span {
     color: #6C63FF;
@@ -74,7 +74,7 @@ h5 {
     transition: 0.5s ease;
 }
 .heading-common h1 {
-    color: #17a2b8;
+    color: #3F3D56;
     font-family: 'Marmelad', sans-serif;
     font-size: 3.5rem;
     font-weight: 500;
@@ -109,7 +109,7 @@ h5 {
 }
 .profile-heading {
     font-size: 2rem;
-    color: #17a2b8;
+    color: #6C63FF;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 .style-heading {
@@ -151,7 +151,7 @@ h5 {
 }
 .heading-bio {
     text-align: center;
-    color: #17a2b8;
+    color: #3F3D56;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: bold;
     font-size: 2rem;
@@ -448,13 +448,15 @@ box-shadow:  14px -14px 28px #a5a3a7,
     justify-content: space-evenly;
     align-items: center;
 
-
+    margin: 3rem;
     padding: 2rem 2rem;
     
-    border-radius: 48px;
-background: #17a2b8;
-box-shadow: inset -21px -21px 17px #0e6472,
-            inset 21px 21px 17px #20e0fe;
+ 
+    
+    border-radius: 57px;
+background: linear-gradient(225deg, #746aff, #6159e6);
+box-shadow:  -12px 12px 24px #312d73,
+             12px -12px 24px #a799ff;
 }
 .top-profile-img {
     grid-area: top-profile-img;
@@ -471,11 +473,12 @@ box-shadow: inset -21px -21px 17px #0e6472,
     flex-direction: column;
     justify-content: center;
     padding: 2.5rem;
-
-    border-radius: 48px;
-background: #f4f4f4;
-box-shadow: inset -21px -21px 17px #979797,
-            inset 21px 21px 17px #ffffff;
+    margin: 3rem;
+margin-bottom: 3rem;
+border-radius: 44px;
+background: linear-gradient(45deg, #cacaca, #f0f0f0);
+box-shadow:  18px -18px 36px #797979,
+             -18px 18px 36px #ffffff;
 }
 .exp-edu {
     grid-area: exp-edu;
@@ -489,7 +492,8 @@ box-shadow: inset -21px -21px 17px #979797,
     grid-column-gap: 1rem;
 }
 .exp-common-heading {
-    color: #17a2b8;
+    color: #3F3D56;
+    
     font-weight: bold;
     font-family: 'IBM Plex Sans', sans-serif;
     margin-bottom: 2rem;
@@ -503,24 +507,22 @@ box-shadow: inset -21px -21px 17px #979797,
 
     padding: 2rem;
    
-  
+    
 
-    border-radius: 22px;
-background: #f4f4f4;
-box-shadow: inset -21px -21px 17px #979797,
-            inset 21px 21px 17px #ffffff;
-}
+    border-radius: 44px;
+background: linear-gradient(45deg, #cacaca, #f0f0f0);
+box-shadow:  18px -18px 36px #797979,
+             -18px 18px 36px #ffffff;}
 .edu-bottom {
     grid-area: edu;
  
     padding: 2rem;
 
 
-    border-radius: 22px;
-background: #f4f4f4;
-box-shadow: inset -21px -21px 17px #979797,
-            inset 21px 21px 17px #ffffff;
-}
+    border-radius: 44px;
+background: linear-gradient(45deg, #cacaca, #f0f0f0);
+box-shadow:  18px -18px 36px #797979,
+             -18px 18px 36px #ffffff;}
 .patient-review {
     grid-area: review;
 }
@@ -545,17 +547,21 @@ box-shadow: inset -21px -21px 17px #979797,
     grid-template-areas: 
     "img-user user-review user-review user-review";
     grid-column-gap: 1rem;
-    border: 2px solid #738f93;
+    
     padding: 1rem;
-    border-radius: 0.25rem;
-    margin: 1rem auto;
+
+    margin: 2rem auto;
+    border-radius: 44px;
+background: #e0e0e0;
+box-shadow:  5px -5px 12px #797979,
+             -5px 5px 12px #ffffff;
 }
 .img-user {
     grid-area: img-user;
     padding: 1rem;
     text-align: center;
     font-family: 'IBM Plex Sans', sans-serif;
-    color: #17a2b8;
+    color: #3F3D56;
     font-weight: bold;
 }
 .user-pic {
@@ -599,10 +605,10 @@ box-shadow: inset -21px -21px 17px #979797,
     padding: 2rem 3rem;
     
 
-    border-radius: 29px;
-background: linear-gradient(315deg, #add8dc, #cdffff);
-box-shadow:  -13px -13px 26px #60787a,
-             13px 13px 26px #ffffff;
+    border-radius: 32px;
+background: linear-gradient(315deg, #d1ced4, #f8f5fb);
+box-shadow:  -12px -12px 24px #828084,
+             12px 12px 24px #ffffff;
 }
 .scroll {
     height: 15rem;
@@ -645,8 +651,8 @@ box-shadow:  -13px -13px 26px #60787a,
 
     border-radius: 29px;
     background: linear-gradient(315deg, #313232, #3a3c3c);
-    box-shadow:  -5px -5px 26px #1b1c1c,
-                 13px 13px 26px #515454;
+    box-shadow:  -5px -5px 13px #1b1c1c,
+                 5px 5px 13px #515454;
 
 }
 
@@ -831,6 +837,7 @@ box-shadow:  -13px -13px 26px #60787a,
         justify-content: space-around;
         height: 10rem;
         flex-direction: column;
+        
     }
     .profile-desc {
         text-align: center;
@@ -982,7 +989,10 @@ box-shadow:  -13px -13px 26px #60787a,
   }
   .profile-btn{
     background-color: #6C63FF;
-    width:15rem;
+    position: relative;
+    top:1rem;
+    left:1rem;
+    width: 15rem;
     border-radius: 57px;
     border-radius: 57px;
     border-radius: 57px;
@@ -994,9 +1004,25 @@ box-shadow:  3px 3px 6px #4c45b3,
   }
   .view-profile-btn{
     border-radius: 32px;
-    margin-top: 2.5rem;
+
     background: linear-gradient(315deg, #f8f5fb, #d1ced4);
     box-shadow:  -8px -8px 7px #a5a3a7,
                  8px 8px 88px #ffffff;
 
+  }
+
+  .view-profile-btn:hover{
+    background: linear-gradient(315deg, #e7e4ea, #c5c1c8);
+
+  }
+  .current-btn{
+      margin:1rem;
+  }
+  .card{
+      margin:20px;
+     
+      border-radius: 0px;
+      background: #6C63FF;
+      box-shadow:  5px -5px 10px #5049bd,
+                   -5px 5px 10px #887dff;
   }

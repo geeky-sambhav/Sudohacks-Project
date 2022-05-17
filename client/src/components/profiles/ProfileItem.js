@@ -53,7 +53,7 @@ const ProfileItem = ({
                 data-toggle="tooltip"
                 data-placement="right"
                 title="Please Login as a User"
-                className="rounded-pill profile-btn btn btn-info "
+                className="rounded-pill profile-btn btn  btn-info "
               >
                 <i className="fas fa-calendar-check"></i> Book Appointment
               </button>
